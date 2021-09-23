@@ -1,0 +1,16 @@
+# This program tells you the subject of O-Level after taking the input of it's course code
+course_code = int(input("Enter the course code here: "))
+if course_code == 7707:
+    print("Accounting")
+elif course_code == 2058:
+    print("Islamiyat")
+elif course_code == 2210:
+    print("Computer Science")
+elif course_code == 4037:
+    print("Add Math")
+elif course_code == 2059:
+    print("Pakistan Studies")
+elif course_code == 5054:
+    print("Physics")
+else:
+    print("Not included in CAIE O-Level syllabus")
